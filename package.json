@@ -1,0 +1,28 @@
+{
+    "author": "Philip Sada",
+    "description": "Pheelfresh e-commerce store",
+    "private": true,
+    "scripts": {
+        "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "chart.js": "^2.9.3",
+        "cross-env": "^6.0.3",
+        "foundation-sites": "^6.6.1",
+        "jquery": "^3.4.1",
+        "laravel-mix": "^5.0.1",
+        "motion-ui": "^2.0.3",
+        "qs": "^6.9.1",
+        "slick-carousel": "^1.8.1",
+        "vue": "^2.6.11"
+    },
+    "devDependencies": {
+        "resolve-url-loader": "^3.1.0",
+        "sass-loader": "^8.0.0",
+        "vue-template-compiler": "^2.6.11"
+    }
+}

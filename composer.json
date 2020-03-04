@@ -1,0 +1,33 @@
+{
+    "name": "sada/e-commerce",
+    "description": "my php e-commerce project",
+    "type": "library",
+    "minimum-stability": "dev",
+
+    "autoload":{
+        "psr-4":{
+            "App\\":"app"
+        },
+        "files":["app/functions/helper.php"]
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "vlucas/phpdotenv": "^4.1",
+        "philo/laravel-blade": "^3.1",
+        "illuminate/database": "5.8.x-dev",
+        "phpmailer/phpmailer": "dev-master",
+        "voku/pagination": "^2.1",
+        "nesbot/carbon": "^2.0@dev",
+        "stripe/stripe-php": "^5.8"
+        
+       
+        
+    },
+
+    "require-dev":{
+        "filp/whoops": "^2.2@dev"
+    },
+    "config":{
+        "optimize-autoloader":true
+    }
+}

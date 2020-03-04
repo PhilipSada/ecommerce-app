@@ -1,0 +1,26 @@
+.select{
+    width:15rem;
+
+    // @include breakpoint(medium only){
+    //     display:none;
+    // }
+    @include breakpoint(small only){
+        margin-left:0.5rem;
+       
+    }
+    // @include breakpoint(large only){
+    //     width:15rem;
+    // }
+    // @include breakpoint(xlarge only){
+    //     width:15rem;
+    // }
+}
+
+
+.option-group{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom:1.5rem;
+  
+}

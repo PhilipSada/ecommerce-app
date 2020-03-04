@@ -1,0 +1,72 @@
+/*small mobile device0 0-500px
+ mobile device 0-600px
+tablet 600px-900px
+tablet landscape 900-1200px
+desktop 1200px-1800px
+large display 1800+
+$screensize
+smallphone5
+phone6
+tabletport7
+tabletport8
+tabletport9
+tabletland1
+tabletland2
+tabletland3
+desktop
+lgdesktop*/
+
+//to convert px to em divide by 16 i.e 500px/16
+//em are better for media queries
+@mixin mediaQuery($screenSize){
+    @if $screenSize==smallPhone5{
+        @media(max-width:31.25em){
+            @content
+        };
+    }
+    @if $screenSize==smallPhone6{
+        @media(max-width:37.5em){
+            @content
+        };
+    }
+    @if $screenSize==tabletPort7{
+        @media(max-width:43.5em){
+            @content
+        };
+    }
+    @if $screenSize==tabletPort8{
+        @media(max-width:50em){
+            @content
+        };
+    }
+    @if $screenSize==tabletPort9{
+        @media(max-width:56.25em){
+            @content
+        };
+    }
+    @if $screenSize==tabletLand1{
+        @media(max-width:62.5em){
+            @content
+        };
+    }
+    @if $screenSize==tabletLand11{
+        @media(max-width:68.5em){
+            @content
+        };
+    }
+    @if $screenSize==tabletLand12{
+        @media(max-width:75em){
+            @content
+        };
+    }
+    @if $screenSize==tabletLand13{
+        @media(max-width:81.25em){
+            @content
+        };
+    }
+    @if $screenSize==desktop{
+        @media(min-width:112.5em){
+            @content
+        }
+    };
+}

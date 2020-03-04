@@ -1,0 +1,31 @@
+.cart-text{
+
+  a{
+      border:2px solid black;
+      color:white;
+      background-color:black;
+      padding:1rem;
+      height:3.5rem;
+      margin-left:1rem;
+    
+    
+   }
+   p{
+      margin-left:1rem;
+      margin-bottom:3rem;
+   }
+}
+
+[v-cloak]{
+   display:none;
+}
+
+.unstriped{
+   h5{
+      a{
+         color:black;
+         text-transform:capitalize;
+         font-size:1rem;
+      }
+   }
+}

@@ -1,0 +1,82 @@
+.dashboard{
+
+    padding:2rem 1rem;
+
+    .summary{
+
+        @include breakpoint(small only){
+            padding-bottom:1rem;
+        }
+
+        .card{
+            width:95%;
+            margin:0 auto;
+
+            @include breakpoint(medium only){
+                width:98%;
+            }
+
+            .card-section{
+                .fa{
+                    font-size:2.5rem;
+
+                    @include breakpoint(medium only){
+                        font-size:0.8rem
+                    }
+
+                    &.fa-shopping-cart{
+                        color:orange;
+                    }
+                    &.fa-thermometer{
+                        color:orangered;
+                    }
+                    &.fa-users{
+                        color:lightsteelblue;
+                        
+                    }
+                    &.fa-money{
+                        color:green;
+
+                    }
+                }
+                p, h4{
+                    margin:0;
+                    padding:0;
+                    text-align:right;
+
+                    @include breakpoint(medium only){
+                        font-size:0.8rem
+                    }
+    
+                }
+            }
+            .card-divider{
+                border-top:1px solid lightgreen;
+                background-color:white;
+                a{
+                    color:lightsteelblue;
+                }
+               
+
+            }
+          
+        }
+    }
+    .graph{
+        margin:2rem 0.5rem;
+
+        @include breakpoint(small only){
+            margin-top:1rem;
+        }
+
+        .card{
+            width:98%;
+        }
+         canvas{
+             height:300px !important;
+             @include breakpoint(small only){
+                 height:auto !important;
+             }
+         }
+    }
+}

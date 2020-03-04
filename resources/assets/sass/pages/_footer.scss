@@ -1,0 +1,31 @@
+footer{
+    margin-top:10rem;
+    margin-bottom:0rem;
+    height:42vh;
+    background-color:rgba(211, 211, 211, 0.473);
+   
+
+    p{
+        font-size:0.8rem;
+        cursor:pointer;
+    }
+}
+.footer{
+   
+    // background-color:rgba(211, 211, 211, 0.219);
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding-top:4rem;
+}
+.footer-heading{
+    font-weight:bold;
+}
+.last-footer{
+    // -moz-box-shadow: 2px 2px 2px rgba(211, 211, 211, 0.219);
+	// -webkit-box-shadow: 2px 2px 2px rgba(211, 211, 211, 0.219);
+    // box-shadow: 2px 2px 2px rgba(211, 211, 211, 0.219);
+    margin-top:1rem;
+ 
+    text-align:center;
+}

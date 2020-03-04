@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Average&display=swap');
+
+@import "~foundation-sites/assets/foundation";
+
+
+@import "~motion-ui/src/motion-ui";
+
+
+@import "~slick-carousel/slick/slick.css";
+
+
+@import "admin/nav";
+@import "admin/dashboard";
+@import "pages/nav";
+@import "pages/home";
+@import "global";
+@import "mixins";
+@import "pages/products";
+@import "pages/mainProducts";
+@import "pages/cart";
+@import "pages/footer";
+@import "pages/moreProducts";
+
+
+

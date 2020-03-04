@@ -1,0 +1,143 @@
+$background: #f2f2f2;
+$heading-large: 2.5rem;
+$heading-medium: 2rem;
+$heading-small: 1.7rem;
+$text-size: 1rem;
+
+
+html, body{
+    font-size:$text-size;
+    line-height:1.5;
+    padding:0;
+    margin:0;
+    width:100%;
+    // font-family: 'Open Sans', sans-serif;
+    font-family: 'Average', serif;
+    // height:4000px;
+}
+
+
+
+.site-wrapper{
+    min-height:calc(100% - 58vh);
+    position:relative;
+    
+}
+
+.notify{
+    display:none;
+    position:fixed;
+    padding:1rem;
+    right:1rem;
+    bottom:1rem;
+    width:300px;
+    border-radius:0.5rem;
+    background-color:black;
+    color:white;
+}
+
+h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size:1.5rem;
+    margin-bottom:1.6rem;
+    padding:1rem;
+    font-weight:500;
+
+    @include breakpoint(medium only){
+        font-size:1.8rem
+    }
+    @include breakpoint(large){
+      font-size:2rem
+   }
+}
+
+p{
+    font-family: 'Average', serif;
+    font-size:1.2rem;
+
+    @include breakpoint(medium only){
+        font-size:1rem
+    }
+    @include breakpoint(small only){
+        font-size:1rem
+    }
+}
+
+[v-cloak] .v-cloak--hidden{
+    display:none;
+}
+
+.fa-shopping-bag{
+    color:lightgray !important;
+    outline-color:black !important;
+}
+
+table{
+    border-collapse:collapse;
+
+    th, tr, td{
+        font-size:0.8rem;
+        padding:0.3rem;
+        border:1px solid #c0c0c0;
+    }
+}
+// h2{
+//     font-size:1.5rem;
+//     font-weight:500;
+//     margin-top:1rem;
+
+//     @include breakpoint(medium only){
+//         font-size:1.8rem
+//     }
+//     @include breakpoint(large){
+//         font-size:2rem
+//     }
+    
+// }
+h3{
+    font-size:1rem;
+    font-weight:500;
+    
+}
+
+// .text-border{
+//     border:2px solid black;
+//     width:20%;
+//     margin-top:0rem;
+    
+// }
+
+
+.reveal{
+
+    border:none;
+    border-radius:0.5rem;
+
+    &:focus{
+        outline-style:none;
+    }
+
+   
+}
+
+
+.notification{
+
+    display:none;
+    margin-top:1.5rem;
+
+    ul{
+        li{
+            list-style-type:none;
+        }
+    }
+}
+
+.fa-edit{
+    color:#8a6d3b;
+}
+
+.fa-times{
+    color:rgba(255, 0, 0, 0.555);
+}
+
